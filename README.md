@@ -8,5 +8,5 @@
 
 I,m a studant from Front-end and learning:
 
-<img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/html-5.png"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/css-3.png"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/js.png"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/php.png"> 
+<img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/html-5.png" width="250px"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/css-3.png" width="250px"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/js.png" width="250px"> <img src="https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/php.png" width="250px"> 
 
