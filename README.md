@@ -6,7 +6,6 @@
 
 
 
-
 ## Olá! <img src="https://github.com/lucasgdb/lucasgdb/blob/master/assets/hi.gif" width="22px">
 
 Meu nome é Filipe Barros, 23 anos, Estudante e Desenvolvedor Front-end!
