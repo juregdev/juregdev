@@ -10,8 +10,8 @@
 
 Meu nome é Filipe Barros, 23 anos, Estudante e Desenvolvedor Front-end!
 
-- :blue_heart: Stack: CSS3, HTML5
-- :books: Estudando: JS, PHP
+- :blue_heart: Stack: CSS3, HTML5, JS
+- :books: Estudando: SASS, PHP
 
 
  
