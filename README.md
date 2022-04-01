@@ -10,7 +10,7 @@
 
 Meu nome é Filipe Barros, 23 anos, Estudante e Desenvolvedor Front-end!
 
-- :blue_heart: Stack: CSS3, HTML5, JS, JSON, SQLSERVER
+- :blue_heart: Stack:  CSS3, HTML5, JS, JSON, SQLSERVER
 - :books: Estudando: SASS, PHP
 
 
@@ -24,10 +24,21 @@ Meu nome é Filipe Barros, 23 anos, Estudante e Desenvolvedor Front-end!
   <summary> <b> Quer saber mais sobre mim? </b> <i>(Clique aqui para expandir)</i> </summary>
   <br>
 
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&count_private=true&theme=radical&hide=issues" />
-  </a>
-
+  <details>
+     <summary> <b> Status </b> <i>(Clique aqui para expandir)</i> </summary>
+     <br>
+     <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&count_private=true&theme=radical&hide=issues" />
+     </a>
+  </details>
+  <details>
+    <summary> <b> Top Languages </b> <i>(Clique aqui para expandir)</i> </summary>
+    <br>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg"/>  
+    </a>
+ </details>
+ 
   ## Algumas Tecnologias
 
   ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
