@@ -47,7 +47,7 @@
     </a>
  </details>
  
-  ## Algumas Tecnologias que possuo conhecimentos 
+  ## Mais Tecnologias 
 
   ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
   ![VSCode](https://img.shields.io/badge/-VSCode-0085D1?style=flat-square&logo=visual-studio-code&logoColor=white)
