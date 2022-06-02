@@ -43,7 +43,7 @@
     <summary> <b> Top Languages </b> <i>(Clique aqui para expandir)</i> </summary>
     <br>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg"/>  
+        <img align="center" src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox"/>  
     </a>
  </details>
  
