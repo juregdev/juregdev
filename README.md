@@ -2,9 +2,9 @@
 
 [![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/) &nbsp; &nbsp;
 [![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/filipe_barrosg/) &nbsp; &nbsp;
-[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) &nbsp;
+[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) 
 
-## STACK 👨‍💻
+## STACK 🎯
 
 ![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -18,7 +18,9 @@
 ![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-  <a href="https://github.com/anuraghazra/github-readme-stats">
+## Status 🚀
+
+ &nbsp; &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
   </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
