@@ -19,10 +19,12 @@
 ![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
   <a href="https://github.com/anuraghazra/github-readme-stats">
-     <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
-   </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
-     <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
-   </a>
+    <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
+  </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
+  </a>
+  
+  <img src='https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/github-user-contribution.svg'/>
 
   ## Mais Tecnologias 
 
