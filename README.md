@@ -1,10 +1,8 @@
-[![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/)
-[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/filipe_barrosg/)
-[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com)
+# Filipe Barros 👨‍💻
 
-
-
-# Hey! <img src="https://github.com/lucasgdb/lucasgdb/blob/master/assets/hi.gif" width="22px"> Welcome!
+[![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/) &nbsp; &nbsp;
+[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/filipe_barrosg/) &nbsp; &nbsp;
+[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) &nbsp;
 
 ## STACK 👨‍💻
 
@@ -21,12 +19,9 @@
 ![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
   <a href="https://github.com/anuraghazra/github-readme-stats">
-     <img align="center" src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
-   </a>
-   <br>
-   <br>
-   <a href="https://github.com/anuraghazra/github-readme-stats">
-     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
+     <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
+   </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
+     <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
    </a>
 
   ## Mais Tecnologias 
