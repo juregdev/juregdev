@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply transition-[background] delay-200
+}
+
+.light {
+  background-image: url('../assets/myLogo.svg');
+  background-repeat: no-repeat;
+}
+
+.dark {
+  @apply bg-dark-background;
+  background-image: url('../assets/myLogoWhite.svg');
+  background-repeat: no-repeat;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button {
+  font-family: 'Poppins', sans-serif;
+}
