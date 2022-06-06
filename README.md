@@ -1,40 +1,36 @@
-# :man_technologist: Filipe Barros
+# Filipe Barros 👨‍💻
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucas-bittencourt/)](https://www.linkedin.com/in/isaac-barreto-3b3a57113/)
-[![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/filipe_barrosg/)
-[![Outlook Badge](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](Filipe.araujo9@outlook.com)
+[![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/) &nbsp; &nbsp;
+[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/filipe_barrosg/) &nbsp; &nbsp;
+[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) 
 
+## STACK 🎯
 
-
-## Olá! <img src="https://github.com/lucasgdb/lucasgdb/blob/master/assets/hi.gif" width="22px">
-
-Meu nome é Filipe Barros, 23 anos, Estudante e Desenvolvedor Front-end!
-
-- :blue_heart: Stack: CSS3, HTML5
-- :books: Estudando: JS, PHP
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 
- 
+## ATUAL FOCO 👨‍🎓
 
-> :octocat: []()
+![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
----
+## Status 🚀
 
-<details>
-  <summary> <b> Quer saber mais sobre mim? </b> <i>(Clique aqui para expandir)</i> </summary>
-  <br>
-
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&count_private=true&theme=radical&hide=issues" />
+ &nbsp; &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
+  </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
   </a>
+  
+  <img src='https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/github-user-contribution.svg'/>
 
-  ## Algumas Tecnologias
+  ## Mais Tecnologias 
 
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/-CSS3-549FDE?style=flat-square&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7B93E?style=flat-square&logo=javascript&logoColor=fff)
   ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
   ![VSCode](https://img.shields.io/badge/-VSCode-0085D1?style=flat-square&logo=visual-studio-code&logoColor=white)
   ![Linux](https://img.shields.io/badge/-Linux-16C60C?style=flat-square&logo=linux&logoColor=white)
   ![Windows](https://img.shields.io/badge/-Windows-00ADEF?style=flat-square&logo=windows&logoColor=white)
-</details>
