@@ -13,7 +13,8 @@ module.exports = {
         'dark-text': '#a7a7a7',
         'light-text': '#1B1B2F'
       }
+
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
