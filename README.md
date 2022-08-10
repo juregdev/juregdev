@@ -21,9 +21,9 @@
 ## Status 🚀
 
  &nbsp; &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=filipebarrosg&show_icons=true&theme=gruvbox" />
+    <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=juregdev&show_icons=true&theme=gruvbox" />
   </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=filipebarrosg&layout=compact&theme=gruvbox"/>  
+    <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=juregdev&layout=compact&theme=gruvbox"/>  
   </a>
   
   <img src='https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/github-user-contribution.svg'/>
