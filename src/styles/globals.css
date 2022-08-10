@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  height: auto;
+  @apply bg-dark-background;
+}
+
+body, h1, h2, h3, h4, h5, h6, button, input, select, textarea{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,161 @@
+.container {
+  min-height: 100vh;
+  @apply w-full h-full flex justify-center items-center;
+}
+
+.container .InfosUser,
+.container .socialMedia {
+  @apply w-[50%] flex flex-col justify-center items-center h-[100vh];
+}
+
+.container .socialMedia button {
+  @apply flex justify-center items-center w-full py-[1.6rem] gap-[1.6rem] h-full bg-neutral-800 transition-all duration-300 relative text-dark-text;
+}
+
+.container .socialMedia button span {
+  @apply w-[8%] h-full flex  justify-center items-center text-[1.6rem] leading-[2.4rem]  font-bold;
+}
+
+.container .socialMedia button svg {
+  @apply w-[4rem] h-[4rem] transition-all duration-300;
+}
+
+.container .socialMedia .instagram:hover span {
+  background: linear-gradient(
+    90deg,
+    rgba(249, 237, 50, 1) 0%,
+    rgba(238, 42, 123, 1) 100%
+  );
+  background-clip: text;
+  @apply text-transparent;
+}
+
+.container .socialMedia .instagram:hover svg {
+  @apply text-[#ee2a7b];
+}
+
+.container .socialMedia .linkedin:hover span {
+  background: #0077b5;
+  background-clip: text;
+  @apply text-transparent;
+}
+
+.container .socialMedia .linkedin:hover svg {
+  @apply text-[#0077B5];
+}
+
+.container .socialMedia .spotify:hover span {
+  background: #1db954;
+  background-clip: text;
+  @apply text-transparent;
+}
+
+.container .socialMedia .spotify:hover svg {
+  @apply w-[4rem] h-[4rem] text-[#1DB954];
+}
+
+.container .socialMedia .email:hover span {
+  background: #ffad22;
+  background-clip: text;
+  @apply text-transparent;
+}
+
+.container .socialMedia .email:hover svg {
+  @apply text-[#ffad22];
+}
+
+.container .InfosUser {
+  @apply gap-[1.6rem];
+}
+
+.container .InfosUser .profileImage {
+  @apply w-full max-w-[25rem] h-full max-h-[25rem] overflow-hidden rounded-full;
+}
+
+.container .InfosUser .bio {
+  @apply text-dark-text text-center flex flex-col items-center gap-[.8rem];
+}
+
+.container .InfosUser .bio h1 {
+  @apply text-[3.2rem] leading-[4rem] font-bold;
+}
+
+.container .InfosUser .bio p {
+  @apply w-[50%] text-[1.6rem] leading-[2.4rem];
+}
+
+.container .InfosUser .bio .userName {
+  @apply text-[2.4rem] leading-[3.2rem];
+}
+
+.container .InfosUser .bio .seeStack {
+  @apply bg-green-500 transition-all w-full max-w-[50%] px-[2.4rem] py-[1.6rem] rounded-[.8rem] text-[1.6rem] leading-[2.4rem] font-bold text-white;
+}
+
+.container .InfosUser .bio .seeStack:active {
+  @apply bg-green-400;
+}
+
+.container .InfosUser .bio .stack {
+  @apply flex overflow-hidden gap-[.8rem] mt-[1.6rem];
+}
+
+.container .InfosUser .bio .stack svg {
+  @apply w-[4rem] h-[4rem];
+}
+
+.container .InfosUser .bio .stack .NextJS,
+.container .InfosUser .bio .stack .ReactJS,
+.container .InfosUser .bio .stack .Typescript,
+.container .InfosUser .bio .stack .TailwindCSS {
+  @apply flex justify-center items-center overflow-hidden gap-[.8rem];
+}
+
+.container .InfosUser .bio .stack .NextJS::after,
+.container .InfosUser .bio .stack .ReactJS::after,
+.container .InfosUser .bio .stack .Typescript::after,
+.container .InfosUser .bio .stack .TailwindCSS::after {
+  @apply text-[2.4rem] leading-[3.2rem] max-w-0 transition-all duration-300;
+}
+
+.container .InfosUser .bio .stack .NextJS::after {
+  content: "NextJS";
+}
+
+.container .InfosUser .bio .stack .ReactJS::after {
+  content: "ReactJS";
+}
+
+.container .InfosUser .bio .stack .Typescript::after {
+  content: "Typescript";
+}
+
+.container .InfosUser .bio .stack .TailwindCSS::after {
+  content: "TailwindCSS";
+}
+
+.container .InfosUser .bio .stack .NextJS:hover::after,
+.container .InfosUser .bio .stack .ReactJS:hover::after,
+.container .InfosUser .bio .stack .Typescript:hover::after,
+.container .InfosUser .bio .stack .TailwindCSS:hover::after {
+  @apply max-w-xl;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    @apply flex-col;
+  }
+
+  .container .InfosUser,
+  .container .socialMedia {
+    @apply w-full;
+  }
+
+  .container .InfosUser .bio .stack {
+    @apply flex-wrap justify-center items-center gap-y-[1.6rem] gap-[15%];
+  }
+
+  .container .socialMedia button span {
+    @apply w-[30%];
+  }
+}
