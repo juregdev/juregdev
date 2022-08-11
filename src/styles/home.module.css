@@ -13,7 +13,7 @@
 }
 
 .container .socialMedia button span {
-  @apply w-[8%] h-full flex  justify-center items-center text-[1.6rem] leading-[2.4rem]  font-bold;
+  @apply w-[8%] h-full flex  justify-center items-center text-[1.6rem] leading-[2.4rem] whitespace-nowrap font-bold;
 }
 
 .container .socialMedia button svg {
@@ -84,7 +84,7 @@
   @apply w-[50%] text-[1.6rem] leading-[2.4rem];
 }
 
-.container .InfosUser .bio .userName  button{
+.container .InfosUser .bio .userName button {
   @apply text-[2.4rem] leading-[3.2rem] flex justify-center items-center gap-[1.6rem];
 }
 
@@ -139,6 +139,12 @@
 .container .InfosUser .bio .stack .Typescript:hover::after,
 .container .InfosUser .bio .stack .TailwindCSS:hover::after {
   @apply max-w-xl;
+}
+
+@media screen and (max-width: 1024px) {
+  .container .socialMedia button span {
+    @apply w-[35%];
+  }
 }
 
 @media screen and (max-width: 600px) {
