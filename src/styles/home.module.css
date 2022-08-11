@@ -84,8 +84,8 @@
   @apply w-[50%] text-[1.6rem] leading-[2.4rem];
 }
 
-.container .InfosUser .bio .userName {
-  @apply text-[2.4rem] leading-[3.2rem];
+.container .InfosUser .bio .userName  button{
+  @apply text-[2.4rem] leading-[3.2rem] flex justify-center items-center gap-[1.6rem];
 }
 
 .container .InfosUser .bio .seeStack {
