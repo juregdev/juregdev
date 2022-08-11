@@ -74,12 +74,10 @@ const Home: NextPage = () => {
             <h1>{user.name}</h1>
             <div className={styles.userName}>
               <button
+                type="button"
                 className={styles.github}
                 onClick={() => {
-                  window.open(
-                    user.html_url,
-                    "_blank"
-                  );
+                  window.open(user.html_url, "_blank");
                 }}
               >
                 <MdiGithub />
@@ -89,6 +87,7 @@ const Home: NextPage = () => {
             <p>{user.bio}</p>
 
             <button
+              type="button"
               className={styles.seeStack}
               onClick={() => {
                 setStack(!stack);
@@ -119,6 +118,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.socialMedia}>
           <button
+            type="button"
             className={styles.instagram}
             onClick={() => {
               window.open("https://www.instagram.com/juregdev/", "_blank");
@@ -129,6 +129,7 @@ const Home: NextPage = () => {
           </button>
 
           <button
+            type="button"
             className={styles.linkedin}
             onClick={() => {
               window.open("https://www.linkedin.com/in/juregdev/", "_blank");
@@ -138,6 +139,7 @@ const Home: NextPage = () => {
             <span>Linkedin</span>
           </button>
           <button
+            type="button"
             className={styles.spotify}
             onClick={() => {
               window.open(
@@ -150,6 +152,7 @@ const Home: NextPage = () => {
             <span> Spotify</span>
           </button>
           <button
+            type="button"
             className={styles.email}
             onClick={() => {
               window.open("mailto:filipe.barrosti@gmail.com", "_blank");
