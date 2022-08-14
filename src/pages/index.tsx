@@ -46,6 +46,7 @@ const Home: NextPage<propsServerSide> = (props) => {
         <div className={styles.InfosUser}>
           <div className={styles.profileImage}>
             <Image
+              priority={true}
               src={user.avatar_url}
               width={300}
               height={300}
