@@ -1,36 +1,34 @@
-# Filipe Barros 👨‍💻
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/) &nbsp; &nbsp;
-[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/jureg.dev/) &nbsp; &nbsp;
-[![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) 
+## Getting Started
 
-## STACK 🎯
+First, run the development server:
 
-![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![FIGMA](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+```bash
+npm run dev
+# or
+yarn dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## ATUAL FOCO 👨‍🎓
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![NEXT](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-## Status 🚀
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
- &nbsp; &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" width='40%' src="https://github-readme-stats.vercel.app/api?username=juregdev&show_icons=true&theme=gruvbox" />
-  </a> &nbsp; <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" width='33.5%'  src="https://github-readme-stats.vercel.app/api/top-langs/?username=juregdev&layout=compact&theme=gruvbox"/>  
-  </a>
-  
-  <img src='https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/github-user-contribution.svg'/>
+## Learn More
 
-  ## Mais Tecnologias 
+To learn more about Next.js, take a look at the following resources:
 
-  ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-  ![VSCode](https://img.shields.io/badge/-VSCode-0085D1?style=flat-square&logo=visual-studio-code&logoColor=white)
-  ![Linux](https://img.shields.io/badge/-Linux-16C60C?style=flat-square&logo=linux&logoColor=white)
-  ![Windows](https://img.shields.io/badge/-Windows-00ADEF?style=flat-square&logo=windows&logoColor=white)
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

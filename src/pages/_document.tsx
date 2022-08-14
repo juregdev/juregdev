@@ -11,14 +11,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
             rel="stylesheet"
           />
-          <meta
-            name="keyword"
-            content="juregdev, JuregDev, Jureg, Juregdev, JUREGDEV,Filipe Jureg, Filipe, Filipe Barros, Dev Front end, FrontEnd Developer, Software engineer, Desenvolvedor Front end, Jureg Marmitech"
-          />
-          <meta
-            name="description"
-            content="Filipe Barros (Jureg), Desenvolvedor Front end em Next | Typescript | TailwindCSS"
-          />
+
+          <meta name="description" content="Filipe Barros (Jureg), Desenvolvedor Front end em Next | Typescript | TailwindCSS" />
         </Head>
         <body>
           <Main />

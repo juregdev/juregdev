@@ -1,8 +1,7 @@
-import type { NextPage } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { MdiGithub } from "../../public/icons/github";
 
 //Components
 import { TeenyiconsNextjsOutline } from "../../public/icons/next";
@@ -27,31 +26,15 @@ interface GitHubUserData {
   followers: number;
 }
 
-const Home: NextPage = () => {
-  const [user, setUser] = useState<GitHubUserData>({} as GitHubUserData);
+interface propsServerSide {
+  user: GitHubUserData;
+}
+
+const Home: NextPage<propsServerSide> = (props) => {
+  const infoUser = props.user;
+
+  const [user, setUser] = useState<GitHubUserData>(infoUser as GitHubUserData);
   const [stack, setStack] = useState<Boolean>(false);
-
-  useEffect(() => {
-    const callApi = async () => {
-      await github
-        .get("")
-        .then((res) => {
-          setUser({
-            login: res.data.login,
-            name: res.data.name,
-            avatar_url: res.data.avatar_url,
-            html_url: res.data.html_url,
-            bio: res.data.bio,
-            followers: res.data.followers,
-          });
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    };
-
-    callApi();
-  }, []);
 
   return (
     <>
@@ -73,21 +56,11 @@ const Home: NextPage = () => {
           <div className={styles.bio}>
             <h1>{user.name}</h1>
             <div className={styles.userName}>
-              <button
-                type="button"
-                className={styles.github}
-                onClick={() => {
-                  window.open(user.html_url, "_blank");
-                }}
-              >
-                <MdiGithub />
-                <span> {user.login}</span>
-              </button>
+              <h2>{`@${user.login}`}</h2>
             </div>
             <p>{user.bio}</p>
 
             <button
-              type="button"
               className={styles.seeStack}
               onClick={() => {
                 setStack(!stack);
@@ -118,7 +91,6 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.socialMedia}>
           <button
-            type="button"
             className={styles.instagram}
             onClick={() => {
               window.open("https://www.instagram.com/juregdev/", "_blank");
@@ -129,7 +101,6 @@ const Home: NextPage = () => {
           </button>
 
           <button
-            type="button"
             className={styles.linkedin}
             onClick={() => {
               window.open("https://www.linkedin.com/in/juregdev/", "_blank");
@@ -139,7 +110,6 @@ const Home: NextPage = () => {
             <span>Linkedin</span>
           </button>
           <button
-            type="button"
             className={styles.spotify}
             onClick={() => {
               window.open(
@@ -152,7 +122,6 @@ const Home: NextPage = () => {
             <span> Spotify</span>
           </button>
           <button
-            type="button"
             className={styles.email}
             onClick={() => {
               window.open("mailto:filipe.barrosti@gmail.com", "_blank");
@@ -168,3 +137,34 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+export const getServerSideProps: GetServerSideProps = async (context) => {
+  let user: GitHubUserData = {
+    login: "",
+    name: "",
+    avatar_url: "",
+    html_url: "",
+    bio: "",
+    followers: 0,
+  };
+
+  await github
+    .get("")
+    .then((res) => {
+      user = {
+        login: res.data.login,
+        name: res.data.name,
+        avatar_url: res.data.avatar_url,
+        html_url: res.data.html_url,
+        bio: res.data.bio,
+        followers: res.data.followers,
+      };
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+
+  return {
+    props: { user },
+  };
+};
