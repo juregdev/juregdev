@@ -141,6 +141,12 @@
   @apply max-w-xl;
 }
 
+@media screen and (max-width: 1200px){
+  .container .socialMedia button span {
+    @apply w-[40%];
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container {
     @apply flex-col;
