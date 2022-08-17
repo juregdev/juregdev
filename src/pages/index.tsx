@@ -2,6 +2,7 @@ import type { GetServerSideProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { MdiGithub } from "../../public/icons/github";
 
 //Components
 import { TeenyiconsNextjsOutline } from "../../public/icons/next";
@@ -57,7 +58,18 @@ const Home: NextPage<propsServerSide> = (props) => {
           <div className={styles.bio}>
             <h1>{user.name}</h1>
             <div className={styles.userName}>
-              <h2>{`@${user.login}`}</h2>
+            <button
+                className={styles.github}
+                onClick={() => {
+                  window.open(
+                    user.html_url,
+                    "_blank"
+                  );
+                }}
+              >
+                <MdiGithub />
+                <span> {user.login}</span>
+              </button>
             </div>
             <p>{user.bio}</p>
 

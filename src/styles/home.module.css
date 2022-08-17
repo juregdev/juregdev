@@ -8,6 +8,14 @@
   @apply w-[50%] flex flex-col justify-center items-center h-[100vh];
 }
 
+.container .InfosUser .bio .userName  button{
+  @apply text-[2.4rem] leading-[3.2rem] flex justify-center items-center gap-[1.6rem];
+}
+
+.container .InfosUser .bio .userName button:hover{
+@apply text-[#4078c0]
+}
+
 .container .socialMedia button {
   @apply flex justify-center items-center w-full py-[1.6rem] gap-[1.6rem] h-full bg-neutral-800 transition-all duration-300 relative text-dark-text;
 }
