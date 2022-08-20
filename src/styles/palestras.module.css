@@ -1,0 +1,9 @@
+.container {
+  @apply w-full flex flex-wrap items-start justify-center p-[2.4rem];
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    @apply flex-col  justify-center items-center;
+  }
+}

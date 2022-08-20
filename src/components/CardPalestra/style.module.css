@@ -1,0 +1,51 @@
+.container {
+  @apply w-full max-w-[56rem];
+}
+
+.container .image {
+  @apply w-full border-2 border-white rounded-[1.6rem] overflow-hidden;
+}
+
+.container .infos {
+  @apply text-dark-text p-[2.4rem] flex flex-col gap-[.8rem] relative bottom-[20rem] opacity-0 transition-all duration-500 -z-10;
+}
+
+.container:hover .infos {
+  @apply bottom-0 opacity-100 z-10;
+}
+
+.container .infos h1 {
+  @apply text-[2.4rem] leading-[3.2rem] font-bold;
+}
+
+.container .infos h2 {
+  @apply text-[1.6rem] leading-[2.4rem];
+}
+
+.container .infos h3 {
+  @apply text-[1.6rem] leading-[2.4rem];
+}
+
+.container .docs {
+  @apply w-full flex gap-[.8rem] justify-evenly mt-[1rem];
+}
+
+.container .docs button {
+  @apply transition-all w-full h-[4rem] rounded text-white text-[1.2rem] leading-[2rem] font-bold;
+}
+
+.container .docs .buttonPdf {
+  @apply bg-red-500;
+}
+
+.container .docs .buttonPdf:hover {
+  @apply bg-red-400;
+}
+
+.container .docs .buttonPptx {
+  @apply bg-orange-500;
+}
+
+.container .docs .buttonPptx:hover {
+  @apply bg-orange-400;
+}
