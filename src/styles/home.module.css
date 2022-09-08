@@ -81,7 +81,11 @@
 }
 
 .container .InfosUser .bio {
-  @apply text-dark-text text-center flex flex-col items-center gap-[.8rem];
+  @apply text-dark-text text-center transition-all flex flex-col items-center gap-[.8rem];
+}
+
+.container .InfosUser .bio:hover {
+  @apply text-white
 }
 
 .container .InfosUser .bio h1 {
@@ -123,7 +127,7 @@
 .container .InfosUser .bio .stack .ReactJS::after,
 .container .InfosUser .bio .stack .Typescript::after,
 .container .InfosUser .bio .stack .TailwindCSS::after {
-  @apply text-[2.4rem] leading-[3.2rem] max-w-0 transition-all duration-300;
+  @apply text-[2.4rem] text-white leading-[3.2rem] max-w-0 transition-all duration-300 delay-200;
 }
 
 .container .InfosUser .bio .stack .NextJS::after {

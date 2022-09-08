@@ -11,7 +11,7 @@ export const CardPalestra = ({
   files,
 }: propsPalestras) => {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       {cover && (
         <div className={styles.image}>
           <Image
@@ -30,11 +30,31 @@ export const CardPalestra = ({
           Data: {date.getDate()}/{date.getMonth()}/{date.getFullYear()}
         </h3>
 
-     {files && <div className={styles.docs}>
-      {files.pdf && <button onClick={() => {window.open(files.pdf)}} className={styles.buttonPdf}>Palestra em PDF</button>}
-      {files.pdf && <button onClick={() => {window.open(files.pptx)}} className={styles.buttonPptx}>Palestra em PPTX</button>}
-      </div>}
+        {files && (
+          <div className={styles.docs}>
+            {files.pdf && (
+              <button
+                onClick={() => {
+                  window.open(files.pdf);
+                }}
+                className={styles.buttonPdf}
+              >
+                Palestra em PDF
+              </button>
+            )}
+            {files.pdf && (
+              <button
+                onClick={() => {
+                  window.open(files.pptx);
+                }}
+                className={styles.buttonPptx}
+              >
+                Palestra em PPTX
+              </button>
+            )}
+          </div>
+        )}
       </div>
-    </section>
+    </div>
   );
 };

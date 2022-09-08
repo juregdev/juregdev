@@ -11,10 +11,10 @@ export const PalestrasData: propsPalestras[] = [
     name: "Importância do Networking em início de carreira",
     firstEvent: "Construindo uma carreira em Tech - Thafin Community",
     date: new Date(2022, 8, 17),
-    cover: '/files/importanciaNetworking/cover.png',
+    cover: '/assets/docs/palestras/networking/cover.png',
     files: {
-        pptx:'/files/importanciaNetworking/networking.pptx',
-        pdf:'/files/importanciaNetworking/networking.pdf'
+        pptx:'/assets/docs/palestras/networking/networking.pptx',
+        pdf:'/assets/docs/palestras/networking/networking.pdf'
     },
   },
 ];

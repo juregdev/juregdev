@@ -3,11 +3,15 @@
 }
 
 .container .image {
-  @apply w-full border-2 border-white rounded-[1.6rem] overflow-hidden;
+  @apply w-full transition-all  rounded-[1.6rem] overflow-hidden;
 }
 
 .container .infos {
   @apply text-dark-text p-[2.4rem] flex flex-col gap-[.8rem] relative bottom-[20rem] opacity-0 transition-all duration-500 -z-10;
+}
+
+.container:hover .image {
+  @apply shadow-md shadow-gray-600;
 }
 
 .container:hover .infos {

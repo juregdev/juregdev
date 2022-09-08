@@ -58,13 +58,10 @@ const Home: NextPage<propsServerSide> = (props) => {
           <div className={styles.bio}>
             <h1>{user.name}</h1>
             <div className={styles.userName}>
-            <button
+              <button
                 className={styles.github}
                 onClick={() => {
-                  window.open(
-                    user.html_url,
-                    "_blank"
-                  );
+                  window.open(user.html_url, "_blank");
                 }}
               >
                 <MdiGithub />
@@ -73,6 +70,14 @@ const Home: NextPage<propsServerSide> = (props) => {
             </div>
             <p>{user.bio}</p>
 
+            <button
+              className={styles.seeStack}
+              onClick={() => {
+                window.location.pathname = "/palestras";
+              }}
+            >
+              Palestras
+            </button>
             <button
               className={styles.seeStack}
               onClick={() => {
@@ -100,6 +105,7 @@ const Home: NextPage<propsServerSide> = (props) => {
                 <LogosTailwindcssIcon />
               </div>
             </div>
+
           </div>
         </div>
         <div className={styles.socialMedia}>
