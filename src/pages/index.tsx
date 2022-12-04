@@ -1,22 +1,22 @@
-import type { GetServerSideProps, NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import { useEffect, useState } from "react";
-import { MdiGithub } from "../../public/icons/github";
+import type { GetServerSideProps, NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { MdiGithub } from '../../public/icons/github';
 
 //Components
-import { TeenyiconsNextjsOutline } from "../../public/icons/next";
-import { LogosReact } from "../../public/icons/ReactIcon";
-import { LogosTailwindcssIcon } from "../../public/icons/tailwind";
-import { LogosTypescriptIcon } from "../../public/icons/TypescriptIcon";
-import { IcRoundEmail } from "../../public/socialMedia/email";
-import { SimpleLineIconsSocialInstagram } from "../../public/socialMedia/instagram";
-import { FaBrandsLinkedin } from "../../public/socialMedia/linkedin";
-import { SimpleIconsSpotify } from "../../public/socialMedia/Spotify";
-import { github } from "../services/Github";
+import { TeenyiconsNextjsOutline } from '../../public/icons/next';
+import { LogosReact } from '../../public/icons/ReactIcon';
+import { LogosTailwindcssIcon } from '../../public/icons/tailwind';
+import { LogosTypescriptIcon } from '../../public/icons/TypescriptIcon';
+import { IcRoundEmail } from '../../public/socialMedia/email';
+import { SimpleLineIconsSocialInstagram } from '../../public/socialMedia/instagram';
+import { FaBrandsLinkedin } from '../../public/socialMedia/linkedin';
+import { SimpleIconsSpotify } from '../../public/socialMedia/Spotify';
+import { github } from '../services/Github';
 
 //CSS
-import styles from "../styles/home.module.css";
+import styles from '../styles/home.module.css';
 
 interface GitHubUserData {
   login: string;
@@ -61,7 +61,7 @@ const Home: NextPage<propsServerSide> = (props) => {
               <button
                 className={styles.github}
                 onClick={() => {
-                  window.open(user.html_url, "_blank");
+                  window.open(user.html_url, '_blank');
                 }}
               >
                 <MdiGithub />
@@ -70,25 +70,9 @@ const Home: NextPage<propsServerSide> = (props) => {
             </div>
             <p>{user.bio}</p>
 
-            <button
-              className={styles.seeStack}
-              onClick={() => {
-                window.location.pathname = "/palestras";
-              }}
-            >
-              Palestras
-            </button>
-            <button
-              className={styles.seeStack}
-              onClick={() => {
-                setStack(!stack);
-              }}
-            >
-              Minha Stack
-            </button>
             <div
               className={`${styles.stack} transition-all duration-700 ${
-                stack ? "max-h-[100px]" : "max-h-0"
+                stack ? 'max-h-[100px]' : 'max-h-0'
               }`}
             >
               <div className={styles.NextJS}>
@@ -105,14 +89,13 @@ const Home: NextPage<propsServerSide> = (props) => {
                 <LogosTailwindcssIcon />
               </div>
             </div>
-
           </div>
         </div>
         <div className={styles.socialMedia}>
           <button
             className={styles.instagram}
             onClick={() => {
-              window.open("https://www.instagram.com/juregdev/", "_blank");
+              window.open('https://www.instagram.com/juregdev/', '_blank');
             }}
           >
             <SimpleLineIconsSocialInstagram />
@@ -122,7 +105,7 @@ const Home: NextPage<propsServerSide> = (props) => {
           <button
             className={styles.linkedin}
             onClick={() => {
-              window.open("https://www.linkedin.com/in/juregdev/", "_blank");
+              window.open('https://www.linkedin.com/in/juregdev/', '_blank');
             }}
           >
             <FaBrandsLinkedin />
@@ -132,8 +115,8 @@ const Home: NextPage<propsServerSide> = (props) => {
             className={styles.spotify}
             onClick={() => {
               window.open(
-                "https://open.spotify.com/user/224dmzx7ogomf6goaw6s4cn5a?si=mppq2McBQsuTKDcu9glZkQ&utm_source=copy-link",
-                "_blank"
+                'https://open.spotify.com/user/224dmzx7ogomf6goaw6s4cn5a?si=mppq2McBQsuTKDcu9glZkQ&utm_source=copy-link',
+                '_blank'
               );
             }}
           >
@@ -143,7 +126,7 @@ const Home: NextPage<propsServerSide> = (props) => {
           <button
             className={styles.email}
             onClick={() => {
-              window.open("mailto:filipe.barrosti@gmail.com", "_blank");
+              window.open('mailto:filipe.barrosti@gmail.com', '_blank');
             }}
           >
             <IcRoundEmail />
@@ -159,16 +142,16 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   let user: GitHubUserData = {
-    login: "",
-    name: "",
-    avatar_url: "",
-    html_url: "",
-    bio: "",
+    login: '',
+    name: '',
+    avatar_url: '',
+    html_url: '',
+    bio: '',
     followers: 0,
   };
 
   await github
-    .get("")
+    .get('')
     .then((res) => {
       user = {
         login: res.data.login,
