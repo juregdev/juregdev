@@ -1,7 +1,7 @@
 # Filipe Barros 💻 - Desenvolvedor Web | devRel
 
 [![Linkedin Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/linkedin.png)](https://www.linkedin.com/in/filipebarrosg/) &nbsp; &nbsp;
-[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/jureg.dev/) &nbsp; &nbsp;
+[![Instagram Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/instagram.png)](https://www.instagram.com/juregdev/) &nbsp; &nbsp;
 [![Outlook Badge](https://github.com/Filipebarrosg/assents/blob/main/Filipebarrosg/email.png)](Filipe.araujo9@outlook.com) 
 
 ## STACK 🎯
