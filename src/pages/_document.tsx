@@ -12,7 +12,10 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <meta name="description" content="Filipe Barros (Jureg), Desenvolvedor Front end em Next | Typescript | TailwindCSS" />
+          <meta
+            name="description"
+            content="Filipe Barros (Jureg), Desenvolvedor Front end em Next | Typescript | TailwindCSS | VUE"
+          />
         </Head>
         <body>
           <Main />
