@@ -17,6 +17,7 @@
 
 ### Status 🚀
 
+<div style="display: flex; flex-direction: column; justify-content: center; align-items:center">
  <img width="100%" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
 
 <table>
@@ -26,6 +27,7 @@
   </tr>
 
 </table>
+</div>
 
 <br/>
 
