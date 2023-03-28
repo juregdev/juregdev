@@ -26,4 +26,6 @@
 
 <img width="715px" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
 
+<br/>
+
 💭 "É tudo nosso, Nada deles, e depois de nois é nois de novo!"
