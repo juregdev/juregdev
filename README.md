@@ -17,7 +17,7 @@
 
 ### Status 🚀
 
- <img width="715px" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
+ <img width="100%" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
 
 <table>
  <tr>
