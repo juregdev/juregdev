@@ -18,13 +18,13 @@
 ### Status 🚀
 
 <table>
-  <tr>
+ <img width="715px" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
+ <tr>
     <td><img width="315px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juregdev&hide=html&layout=compact&theme=vue-dark" /></td>
     <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api?username=juregdev&count_private=true&theme=vue-dark"/></td>
-  </tr> 
-</table>
+  </tr>
 
-<img width="715px" align="left" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
+</table>
 
 <br/>
 
