@@ -24,11 +24,10 @@
 
 <table width="100%" align="center">
  <tr>
-    <td><img width="315px" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=juregdev&hide=html&layout=compact&theme=vue-dark" /></td>
-    <td><img width="400px" align="center" src="https://github-readme-stats.vercel.app/api?username=juregdev&count_private=true&theme=vue-dark"/></td>
+    <td>![Stats](./profile/stats.svg)</td>
+   
   </tr>
 </table>
-
 <br/>
 
 💭 "É tudo nosso, Nada deles, e depois de nois é nois de novo!"
