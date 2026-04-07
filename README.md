@@ -15,19 +15,5 @@
 ![VUE.JS](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
 ![NODEJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-### Status 🚀
-
-<div width="100%" align="center">
- <img width="770px" align="center" src="https://github-readme-activity-graph.cyclic.app/graph?username=juregdev&theme=vue&count_private=true" />
-</div>
- 
-
-<table width="100%" align="center">
- <tr>
-    <td>![Stats](./profile/stats.svg)</td>
-   
-  </tr>
-</table>
-<br/>
 
 💭 "É tudo nosso, Nada deles, e depois de nois é nois de novo!"
