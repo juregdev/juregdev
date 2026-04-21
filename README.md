@@ -9,11 +9,22 @@
 
 ### STACK 🎯
 
-![TAILWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![NEXT](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![VUE.JS](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
-![NODEJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+#### Front End
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white
+)
+![Next](https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat-square&logo=vuedotjs&logoColor=4FC08D)
+![MicroFrontEnd](https://img.shields.io/badge/Micro_frontend-black?style=flat-square&logo=webpack
+)
 
+#### BackEnd
+![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![NodeJs](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/Rabbit_MQ-orange?style=flat-square&logo=rabbitMq&logoColor=white)
+![Knex.js](https://img.shields.io/badge/Knex-D26B38?style=flat-square&logo=knex.js&logoColor=white)
+
+#### Database
+![MySQL](https://img.shields.io/badge/My_SQL-black?style=flat-square&logo=mysql&logoColor=white)
+![MongoDb](https://img.shields.io/badge/mongo_DB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 💭 "É tudo nosso, Nada deles, e depois de nois é nois de novo!"
